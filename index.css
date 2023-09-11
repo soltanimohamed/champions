@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    user-select: none;
+}
+
+
+.container {
+    max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 20px;
+    margin: 30px auto;
+}
+ 
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+img {
+    width: 90px;
+    height: 90px;
+    margin-top: 50px;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+#textInput {
+    width: 300px;
+    height: 100px;
+    background: #444059;
+    color: beige;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    width: 307px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+}
+
+#endorDiv {
+    overflow-y: auto;
+    padding: 0px 10px;
+
+}
+
+ul {
+    margin-top: 0;
+    max-height: 250px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    
+}
+
+li {
+    font-weight: 400;
+    size: 12px;
+    background: white;
+    color:  #1B1924;
+    text-align: start;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#persons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fromTo {
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    background: #444059;
+    color: beige;
+    margin: 5px;
+    text-align: center;
+}
+
+h4 {
+    margin: 5px 0px;
+}
+ p {
+    margin: 0px;
+ }
+
+ #bottomDiv{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .h-container {
+    display: flex;
+ }
+
+#heart {
+    margin-right: 5px;
+}
